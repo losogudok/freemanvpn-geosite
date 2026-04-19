@@ -2,18 +2,18 @@
 
 <table width="100%">
 <tr>
-<td align="center"><a href="https://github.com/hydraponique/roscomvpn-geoip">RoscomVPN GeoIP</a></td>
-<td align="center"><a href="https://github.com/hydraponique/roscomvpn-geosite"><b>🌐 RoscomVPN Geosite</b></a></td>
-<td align="center"><a href="https://github.com/hydraponique/roscomvpn-routing">RoscomVPN Routing</a></td>
+<td align="center"><a href="https://github.com/losogudok/freemanvpn-geoip">FreemanVPN GeoIP</a></td>
+<td align="center"><a href="https://github.com/losogudok/freemanvpn-geosite"><b>🌐 FreemanVPN Geosite</b></a></td>
+<td align="center"><a href="https://github.com/losogudok/freemanvpn-routing">FreemanVPN Routing</a></td>
 </tr>
 <tr>
-<td align="center"><img src="https://img.shields.io/github/downloads/hydraponique/roscomvpn-geoip/total.svg" alt="Downloads"> <img src="https://data.jsdelivr.com/v1/package/gh/hydraponique/roscomvpn-geoip/badge" alt="jsDelivr"></td>
-<td align="center"><img src="https://img.shields.io/github/downloads/hydraponique/roscomvpn-geosite/total.svg" alt="Downloads"> <img src="https://data.jsdelivr.com/v1/package/gh/hydraponique/roscomvpn-geosite/badge" alt="jsDelivr"></td>
-<td align="center"><img src="https://img.shields.io/github/stars/hydraponique/roscomvpn-routing.svg" alt="Stars"> <img src="https://img.shields.io/badge/Happ-blue.svg" alt="Happ"> <img src="https://img.shields.io/badge/Mihomo-grey.svg" alt="Mihomo"> <img src="https://img.shields.io/badge/Incy-darkgreen.svg" alt="Incy"></td>
+<td align="center"><img src="https://img.shields.io/github/downloads/losogudok/freemanvpn-geoip/total.svg" alt="Downloads"> <img src="https://data.jsdelivr.com/v1/package/gh/losogudok/freemanvpn-geoip/badge" alt="jsDelivr"></td>
+<td align="center"><img src="https://img.shields.io/github/downloads/losogudok/freemanvpn-geosite/total.svg" alt="Downloads"> <img src="https://data.jsdelivr.com/v1/package/gh/losogudok/freemanvpn-geosite/badge" alt="jsDelivr"></td>
+<td align="center"><img src="https://img.shields.io/github/stars/losogudok/freemanvpn-routing.svg" alt="Stars"> <img src="https://img.shields.io/badge/Happ-blue.svg" alt="Happ"> <img src="https://img.shields.io/badge/Mihomo-grey.svg" alt="Mihomo"> <img src="https://img.shields.io/badge/Incy-darkgreen.svg" alt="Incy"></td>
 </tr>
 </table>
 
-# 🌐 RoscomVPN Geosite
+# 🌐 FreemanVPN Geosite
 
 **Генерирует `geosite.dat` и рулсеты для Mihomo/sing-box**
 **с категоризированными списками доменов для маршрутизации трафика РФ/РБ**
@@ -30,8 +30,8 @@
 <table width="100%">
 <thead><tr><th align="left">Источник</th><th align="left">Ссылка</th></tr></thead>
 <tbody>
-<tr><td>🔗 GitHub Releases</td><td><a href="https://github.com/hydraponique/roscomvpn-geosite/releases/latest/download/geosite.dat">https://github.com/hydraponique/roscomvpn-geosite/releases/latest/download/geosite.dat</a></td></tr>
-<tr><td>⚡ jsDelivr CDN</td><td><a href="https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/geosite.dat">https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/geosite.dat</a></td></tr>
+<tr><td>🔗 GitHub Releases</td><td><a href="https://github.com/losogudok/freemanvpn-geosite/releases/latest/download/geosite.dat">https://github.com/losogudok/freemanvpn-geosite/releases/latest/download/geosite.dat</a></td></tr>
+<tr><td>⚡ jsDelivr CDN</td><td><a href="https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/geosite.dat">https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/geosite.dat</a></td></tr>
 </tbody>
 </table>
 
@@ -43,8 +43,8 @@
 <table width="100%">
 <thead><tr><th align="left">Формат</th><th align="left">Шаблон ссылки</th></tr></thead>
 <tbody>
-<tr><td>🔶 Mihomo (.mrs)</td><td><a href="https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/">https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/{категория}.mrs</a></td></tr>
-<tr><td>🟣 sing-box (.srs)</td><td><a href="https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/sing-box/">https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/sing-box/{категория}.srs</a></td></tr>
+<tr><td>🔶 Mihomo (.mrs)</td><td><a href="https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/mihomo/">https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/mihomo/{категория}.mrs</a></td></tr>
+<tr><td>🟣 sing-box (.srs)</td><td><a href="https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/sing-box/">https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/sing-box/{категория}.srs</a></td></tr>
 </tbody>
 </table>
 
@@ -142,12 +142,12 @@
 
 ## 📅 Обновления
 
-> Файлы обновляются **при каждом пуше в master** и автоматически триггерят обновление [roscomvpn-routing](https://github.com/hydraponique/roscomvpn-routing)
+> Файлы обновляются **при каждом пуше в master** и автоматически триггерят обновление [freemanvpn-routing](https://github.com/losogudok/freemanvpn-routing)
 
 ## 🔗 Связанные проекты
 
-- [roscomvpn-geoip](https://github.com/hydraponique/roscomvpn-geoip) — IP-диапазоны
-- [roscomvpn-routing](https://github.com/hydraponique/roscomvpn-routing) — готовые конфиги роутинга
+- [freemanvpn-geoip](https://github.com/losogudok/freemanvpn-geoip) — IP-диапазоны
+- [freemanvpn-routing](https://github.com/losogudok/freemanvpn-routing) — готовые конфиги роутинга
 
 ---
 

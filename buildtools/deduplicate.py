@@ -22,7 +22,7 @@ from bisect import bisect_right
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Ссылка на файл со списком IP-диапазонов (direct.txt или whitelist.txt) в GitHub
-DIRECT_TXT_URL = "https://raw.githubusercontent.com/hydraponique/roscomvpn-geoip/release/text/direct.txt"
+DIRECT_TXT_URL = "https://raw.githubusercontent.com/losogudok/freemanvpn/release/text/direct.txt"
 
 # Адрес API для проверки DNS
 API_BASE = "https://check-host.net"
