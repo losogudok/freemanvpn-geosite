@@ -148,16 +148,3 @@
 
 - [freemanvpn-geoip](https://github.com/losogudok/freemanvpn-geoip) — IP-диапазоны
 - [freemanvpn-routing](https://github.com/losogudok/freemanvpn-routing) — готовые конфиги роутинга
-
----
-
-<div align="center">
-
-> **Ставь ⭐** и не пропусти регулярные обновления для поддержания актуальности списков и оптимальной производительности
-
-##### USDT TRC20: TMu3N2ZjK5omJ7n3WAj5MNCSM5querBXsR
-
-##### Спасибо Всем за поддержку!
-###### Сделано с ❤️ к свободному интернету!
-
-</div>
