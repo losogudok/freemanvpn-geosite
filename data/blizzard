@@ -1,40 +1,43 @@
-blizzard.com
-blizzardgearstore.com
-blz-contentstack.com
+# Battle.net and Blizzard game services
+domain:battle.net
+domain:blizzard.com
+domain:blz-contentstack.com
 
-# Battle.Net
-battle.net
-full:blizzard.nefficient.co.kr
+# Battle.net client and game content delivery
+full:blizzard.gcdn.cloudn.co.kr
 full:blzddist1-a.akamaihd.net
+full:blzddist2-a.akamaihd.net
+full:blzddist3-a.akamaihd.net
 full:blzddistkr1-a.akamaihd.net
 full:bnetcmsus-a.akamaihd.net
 full:bnetproduct-a.akamaihd.net
-full:bnetshopus.akamaized.net
+full:blznav.akamaized.net
 
 # Diablo
-diablo3.com
-diabloimmortal.com
+domain:diablo.com
+domain:diablo2.com
+domain:diablo3.com
+domain:diablo4.com
+domain:diabloimmortal.com
 
 # Hearthstone
-firesidegatherings.com
-playhearthstone.com
+domain:playhearthstone.com
 
-# Hero of the Storm
-heroesofthestorm.com
+# Heroes of the Storm
+domain:heroesofthestorm.com
 
 # Overwatch
-playoverwatch.com
+domain:overwatch.com
+domain:playoverwatch.com
 
-# Starcraft
-starcraft.com
-starcraft2.com
+# StarCraft
+domain:starcraft.com
+domain:starcraft2.com
 
 # Warcraft
-playwarcraft3.com
+domain:playwarcraft3.com
+domain:warcraft.com
+domain:warcraft3.com
 
 # World of Warcraft
-worldofwarcraft.com
-
-full:blizzcon-a.akamaihd.net
-full:blzmedia-a.akamaihd.net
-full:blznav.akamaized.net
+domain:worldofwarcraft.com

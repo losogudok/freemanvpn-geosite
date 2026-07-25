@@ -93,6 +93,7 @@
 <tr><td><code>riot</code></td><td>Riot Games (LoL, Valorant)</td><td>В direct, экономия трафика, снижение пинга</td></tr>
 <tr><td><code>escapefromtarkov</code></td><td>Escape from Tarkov</td><td>В direct, нужен для входа в любой гео-аккаунт в игре</td></tr>
 <tr><td><code>faceit</code></td><td>FaceIT</td><td>В direct, расширяет список доступных серверов сервиса</td></tr>
+<tr><td><code>blizzard</code></td><td>Battle.net и игры Blizzard</td><td>В direct, снижение пинга и работа без отключения VPN</td></tr>
 </tbody>
 </table>
 
