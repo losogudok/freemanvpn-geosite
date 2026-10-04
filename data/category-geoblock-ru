@@ -310,29 +310,7 @@ domain:sketchup.com
 # Spaceship
 domain:spaceship.com
 
-# Spotify
-domain:byspotify.com
-domain:pscdn.co
-domain:scdn.co
-domain:spoti.fi
-domain:spotify-everywhere.com
-keyword:spotify.com
-domain:spotify.design
-keyword:spotifycdn.com
-keyword:spotifycdn.net
-domain:spotifycharts.com
-domain:spotifycodes.com
-domain:spotifyforbrands.com
-domain:spotifyjobs.com
-domain:spotify.link
-domain:tospotify.com
-domain:audio-ak-spotify-com.akamaized.net
-domain:audio4-ak-spotify-com.akamaized.net
-domain:cdn-spotify-experiments.conductrics.com
-domain:heads-ak-spotify-com.akamaized.net
-domain:heads4-ak-spotify-com.akamaized.net
-domain:spotify.map.fastly.net
-domain:spotify.map.fastlylb.net
+# Spotify moved to /data/spotify (routing direct)
 
 # Strava
 keyword:strava.com

@@ -80,6 +80,7 @@
 <tr><td><code>twitch</code></td><td>Twitch</td><td>Все домены twitch, если есть twitch-ads - в direct</td></tr>
 <tr><td><code>twitch-ads</code></td><td>Twitch</td><td>Отключает рекламу, поднимает качество до 1080p+ - только в proxy</td></tr>
 <tr><td><code>pinterest</code></td><td>Pinterest</td><td>Убираем рекламу на сервисе, direct</td></tr>
+<tr><td><code>spotify</code></td><td>Spotify</td><td>Все домены Spotify, direct</td></tr>
 </tbody>
 </table>
 

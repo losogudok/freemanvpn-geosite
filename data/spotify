@@ -1,0 +1,29 @@
+# Spotify - routing direct / without VPN
+
+# Core
+domain:byspotify.com
+domain:pscdn.co
+domain:scdn.co
+domain:spoti.fi
+keyword:spotify.com
+domain:spotify.design
+keyword:spotifycdn.com
+keyword:spotifycdn.net
+
+# Marketing / business / links
+domain:spotify-everywhere.com
+domain:spotifycharts.com
+domain:spotifycodes.com
+domain:spotifyforbrands.com
+domain:spotifyjobs.com
+domain:spotify.link
+domain:tospotify.com
+
+# CDN (Akamai / Fastly / conductrics)
+domain:audio-ak-spotify-com.akamaized.net
+domain:audio4-ak-spotify-com.akamaized.net
+domain:heads-ak-spotify-com.akamaized.net
+domain:heads4-ak-spotify-com.akamaized.net
+domain:spotify.map.fastly.net
+domain:spotify.map.fastlylb.net
+domain:cdn-spotify-experiments.conductrics.com
