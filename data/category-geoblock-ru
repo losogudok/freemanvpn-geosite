@@ -312,6 +312,9 @@ domain:spaceship.com
 
 # Spotify moved to /data/spotify (routing direct)
 
+# Shikimori
+domain:shikimori.io
+
 # Strava
 keyword:strava.com
 
