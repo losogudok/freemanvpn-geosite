@@ -24,6 +24,7 @@ domain:cloudcode-pa.googleapis.com
 domain:daily-cloudcode-pa.googleapis.com
 
 # Google DeepMind - NotebookLM
+domain:labstailwind.pa.googleapis.com
 domain:notebooklm-pa.googleapis.com
 domain:notebooklm.googleapis.com
 domain:notebooklm.google
