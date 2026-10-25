@@ -105,7 +105,10 @@ domain:elevenreader.io
 
 # Fitbit
 domain:api.fitbit.com
+domain:android-api.fitbit.com
+domain:android-cdn-api.fitbit.com
 domain:fitbit-pa.googleapis.com
+domain:fitbit-pa.mtls.googleapis.com
 domain:fitbit.google.com
 domain:fitbitvestibuleshim-pa.googleapis.com
 
