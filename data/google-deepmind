@@ -9,6 +9,9 @@ domain:proactivebackend-pa.googleapis.com
 domain:robinfrontend-pa.googleapis.com
 domain:peoplestack-pa.googleapis.com
 
+# Google DeepMind - Google Health Coach (Fitbit)
+domain:fitbit-pa.googleapis.com
+
 # Google DeepMind - Google AI Studio
 domain:ai.google.dev
 domain:generativeai.google
