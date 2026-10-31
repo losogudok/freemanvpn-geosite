@@ -81,6 +81,7 @@
 <tr><td><code>twitch-ads</code></td><td>Twitch</td><td>Отключает рекламу, поднимает качество до 1080p+ - только в proxy</td></tr>
 <tr><td><code>pinterest</code></td><td>Pinterest</td><td>Убираем рекламу на сервисе, direct</td></tr>
 <tr><td><code>spotify</code></td><td>Spotify</td><td>Все домены Spotify, direct</td></tr>
+<tr><td><code>spotify-auth</code></td><td>Сайт и авторизация Spotify</td><td>Proxy, правило выше spotify</td></tr>
 </tbody>
 </table>
 
