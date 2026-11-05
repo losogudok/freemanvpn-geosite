@@ -38,15 +38,35 @@
 </details>
 
 <details>
-<summary><b>🔶 Mihomo (.mrs) и 🟣 sing-box (.srs)</b></summary>
+<summary><b>🔶 Mihomo (.list / .mrs) и 🟣 sing-box (.srs)</b></summary>
 
 <table width="100%">
 <thead><tr><th align="left">Формат</th><th align="left">Шаблон ссылки</th></tr></thead>
 <tbody>
-<tr><td>🔶 Mihomo (.mrs)</td><td><a href="https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/mihomo/">https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/mihomo/{категория}.mrs</a></td></tr>
+<tr><td>🔶 Mihomo (.list, полная категория)</td><td><a href="https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/mihomo/">https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/mihomo/{категория}.list</a></td></tr>
+<tr><td>🔶 Mihomo (.mrs, только domain/full)</td><td><a href="https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/mihomo/">https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/mihomo/{категория}.mrs</a></td></tr>
 <tr><td>🟣 sing-box (.srs)</td><td><a href="https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/sing-box/">https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite/release/sing-box/{категория}.srs</a></td></tr>
 </tbody>
 </table>
+
+Для полной категории Mihomo используйте `.list` с `behavior: classical` и `format: text`.
+Формат MRS поддерживает только доменные правила: `.mrs` содержит `domain:` и `full:`,
+а `keyword:` и `regexp:` сохраняются в полной `.list`. Это важно для `spotify`,
+`github`, `private` и `category-geoblock-ru`; для них замените провайдер `.mrs` на `.list`.
+Правила без префикса считаются доменными суффиксами в обоих клиентах.
+
+```yaml
+rule-providers:
+  spotify:
+    type: http
+    behavior: classical
+    format: text
+    url: https://cdn.jsdelivr.net/gh/losogudok/freemanvpn-geosite@release/mihomo/spotify.list
+    path: ./ruleset/spotify.list
+    interval: 86400
+rules:
+  - RULE-SET,spotify,DIRECT
+```
 
 </details>
 
@@ -141,6 +161,8 @@
 - [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) — компилятор geosite.dat для Xray
 - [Mihomo](https://github.com/MetaCubeX/mihomo) — конвертация в .mrs формат
 - [sing-box](https://github.com/SagerNet/sing-box) v1.12.12 — компиляция в .srs формат
+- `buildtools/build_rulesets.py` — общий разбор исходников и сборка `.mrs`, полных `.list` и `.srs`
+- `python3 -m unittest discover -s buildtools -p 'test_*.py' -v` — проверки реального сопоставления доменов и загрузки всех категорий (нужны `mihomo` и `sing-box`)
 - `buildtools/deduplicate.py` — ручная дедупликация доменов через DNS-резолвинг и сверку с GeoIP
 
 ## 📅 Обновления
