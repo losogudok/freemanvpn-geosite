@@ -50,6 +50,12 @@ domain:jules.google.com
 domain:labs.google
 domain:labs.google.com
 domain:aisandbox-pa.googleapis.com
+domain:flow.google.com
+domain:flowmusic.app
+domain:stax.withgoogle.com
+domain:learnyourway.withgoogle.com
+domain:textfx.withgoogle.com
+domain:shiffbot.withgoogle.com
 
 # Google DeepMind - Android Studio Gemini Code Assist
 domain:aida.googleapis.com
@@ -63,6 +69,9 @@ domain:stitch.withgoogle.com
 domain:app-companion-430619.appspot.com
 domain:content-push.googleapis.com
 domain:stitch.googleapis.com
+
+# Google DeepMind - Playground
+domain:playground.google
 
 # Google DeepMind - Antigravity
 domain:antigravity-pa.googleapis.com
@@ -79,3 +88,6 @@ domain:developerprofiles-pa.googleapis.com
 domain:lookerstudio.google.com
 domain:o.pki.goog
 domain:suggestqueries.google.com
+
+# Shared assets, APIs and Google sign-in used by Labs experiments / Playground.
+full:lh3.googleusercontent.com
